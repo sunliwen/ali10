@@ -14,6 +14,10 @@ html {
     text-align: center;
 }
 
+section {
+    width: 280px;
+}
+
 .logo {
     height: 80px;
     width: 280px;

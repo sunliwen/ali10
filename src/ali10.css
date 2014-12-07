@@ -16,6 +16,7 @@ html {
 
 section {
     width: 280px;
+    margin: 50px auto;
 }
 
 .logo {
@@ -76,15 +77,15 @@ section {
 }
 
 .start_btn {
-    width: 200px;
-    height: 100px;
+    width: 280px;
+    height: 80px;
     border: none;
     background: transparent url(../images/start_btn.png) no-repeat center;
 }
 
 .answer_btn {
-    width: 200px;
-    height: 100px;
+    width: 280px;
+    height: 80px;
     border: none;
     background: transparent url(../images/answer_btn.png) no-repeat center;
 }
@@ -94,4 +95,12 @@ section {
     height: 80px;
     border: none;
     background: transparent url(../images/share_btn.png) no-repeat center;
+}
+
+.footer {
+    font-size: 80%;
+}
+
+.description {
+    font-size: 80%;
 }

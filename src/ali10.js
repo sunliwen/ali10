@@ -21,12 +21,13 @@ $(function () {
         $('section.idea').hide();
         $('section.answer').show();
 
-        var result = results[choice.toLowerCase()];
-        var length = Object.keys(result).length;
+        var candidates = results[choice.toLowerCase()];
+        var length = Object.keys(candidates).length;
         var i = getRandomInt(length);
-        var result = result[i.toString()];
-        $('.answer_text').text(result.long);
-        document.title = result.short;
+        candidate = candidates[i.toString()];
+        //console.log(candidates, length, i, candidate)
+        $('.answer_text').text(candidate.long);
+        document.title = candidate.short;
     });
 
     $('button.choice').on('click', function(){
@@ -44,5 +45,5 @@ $(function () {
 
     var results = {};
     var choice = null;
-    var result = null;
+    var candidate = null;
 });

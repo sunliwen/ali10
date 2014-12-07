@@ -20,7 +20,7 @@ $(function () {
         $('section.welcome').hide();
         $('section.idea').hide();
         $('section.answer').show();
-
+        console.log(choice);
         var candidates = results[choice.toLowerCase()];
         var length = Object.keys(candidates).length;
         var i = getRandomInt(length);
@@ -35,8 +35,8 @@ $(function () {
     });
 
     $('.share_btn').on('click', function(){
-        $('section.answer').hide();
-        console.log(results);
+        //$('section.answer').hide();
+        //console.log(results);
     });
 
     function getRandomInt(max) {

@@ -27,6 +27,15 @@ section {
     text-align: center;
 }
 
+
+.ali_logo {
+    height: 80px;
+    width: 280px;
+    background-size: 280px 80px;
+    background: url(../images/ali10.png) no-repeat center;
+    text-align: center;
+}
+
 .cash_logo {
     height: 120px;
     width: 240px;

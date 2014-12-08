@@ -125,8 +125,11 @@ section {
 }
 
 .choices button:active {
-    background-color: #fafafa;
     border: dotted;
+}
+
+.choices button.selected {
+    border: dotted 1px white;
 }
 
 .choices .span {

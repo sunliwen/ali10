@@ -32,6 +32,8 @@ $(function () {
 
     $('button.choice').on('click', function(){
         choice = $(this).data('choice');
+        $('.choice').removeClass('selected');
+        $(this).addClass('selected');
     });
 
     $('.share_btn').on('click', function(){
